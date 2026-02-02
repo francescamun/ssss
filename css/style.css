@@ -1,0 +1,415 @@
+body{
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+    margin-right: 10px;
+}
+div.box{
+    display: flex;
+    align-items: flex-start;
+    gap: 21px;
+    width: 100%;
+    justify-content: flex-start;
+    grid-column: 1/-1;
+}
+img.zoom-image{
+    max-width: 100%;
+    zoom: 170%;
+
+}
+div.box2{
+    display: flex;
+    align-items: flex-start;
+    gap: 21px;
+    width: 100%;
+    justify-content: flex-start;
+    grid-column: 1/-1;
+   ;
+}
+div.box p{
+    font-size: 30px;
+    margin: 0;
+flex: 1;
+}
+div.box2 p{
+    font-size: 30px;
+    margin: 0;
+    flex: 1;
+}
+
+span.testocolorato{
+    color: #EF332B;
+    font-weight: bold;
+}
+
+div.box img{
+    height: auto;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 669px;
+    width: 550px;
+    height: auto;
+    margin: auto 0;
+}
+div.box2 img{
+margin-right: 0%;
+}
+div.box2{
+    flex-direction: row-reverse;
+}
+
+header{
+    max-width: 1440px;
+    min-height: 119px;
+    background-color: #1C1710;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p{
+    margin: auto 47px;
+    font-weight:  bold;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+header nav ul{
+    margin: 47px;
+    padding: 0;
+    list-style: none; 
+    display: flex;
+    gap: 16px;
+    font-weight: bold;
+}
+
+header a{
+text-decoration: none;
+color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: #EF332B;
+}
+
+header nav a{ 
+    color:white;
+
+}
+
+header nav a:hover{
+    color: #EF332B;
+    text-decoration: underline;
+}
+
+section.info{
+    background-color: #1C1710;
+    padding: 48px 24px;
+    margin-top: 47px;
+}
+
+section.info h1{
+    margin: 0;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    font-size: 100px;
+}
+
+section.info h2{
+    margin: 0;
+    color: #EF332B;
+    font-weight: normal;
+    text-align: center;
+    font-size: 96px;
+}
+
+section.card{
+    display:  grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1100px;
+    margin: 48px auto;
+    gap: 16px;
+    margin-top: 100px;
+}
+section.card2{
+    display:  grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1100px;
+    margin: 48px auto;
+    gap: 16px;
+    margin-bottom: 100px;
+}
+
+
+section.card h2, section.card p{
+    margin: 0;
+    padding: 0;
+
+}
+
+section.card img{
+    object-fit: cover;
+}
+
+footer{
+    text-align: center;
+    max-width: 1440px;
+    min-height: 119px;
+    background-color: #1C1710;
+    margin: 0% auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+footer p{
+     margin: 0;
+    font-weight:  bold;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin: 47px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+      text-decoration: underline;
+    color: #EF332B;
+}
+@media (max-width:600px){
+    body{
+        background-color: #f3f3f3;
+          div.box img{
+        width: 50%;
+    }
+    div.svg{
+        width: 50%;
+    }
+    div.box p{
+    font-size: 16px;
+    margin: 0;
+    flex: 1;
+    }
+    div.box2 img{
+        width: 50%;
+    }
+div.box2 p{
+    font-size: 16px;
+    margin: 0;
+    flex: 1;
+}
+    div.box3 img{
+        width: 50%;
+    }
+    div.box3 p{
+        font-size: 16px;
+    }
+    section.info3 h1{
+        font-size: 16px;
+    }
+    div.box4 img{
+        width: 50%;
+    }
+    div.box4 span{
+        font-size: 16px;
+    }
+    div.box5 img{
+        width: 50%;
+    }
+    div.box5 p{
+    font-size: 16px;
+    }
+    
+    section.ultima2{
+        font-size: 16px;
+    }
+    section.info h1{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+section.info h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+    }
+}
+
+span.testocolorato{
+    color: #000000;
+    font-weight: bold;
+}
+section.info h1{
+    font-size: 80px;
+    font-weight: bold;
+
+}
+section.info h2{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+section.sovrapproduzione{
+    background-color: #1C1710;
+     padding: 30px 18px;
+    margin-top: 30px;
+}
+section.sovrapproduzione h1{
+    color: #EF332B;
+    margin: 30px;
+}
+section.sovrapproduzione h1:hover{
+    color: #f5f5f5;
+}
+
+
+div.box3{
+    display: flex;
+    align-items: flex-start;
+    gap: 21px;
+    width: 100%;
+    justify-content: flex-start;
+    grid-column: 1/-1;
+}
+
+section.slide2{
+    display:  grid;
+    max-width: 1100px;
+    margin: 48px auto;
+    gap: 16px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+div.box3 img{
+    height: auto;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 669px;
+    width: 397px;
+    height: auto;
+    filter: grayscale(100%);
+}
+div.box3 p{
+    font-size: 30px;
+    margin: 0;
+    flex: 1;
+}
+
+span.incassare{
+    color: #000000;
+    font-weight: bold;
+}
+section.info3{
+      background-color: #1C1710;
+     padding: 30px 18px;
+    margin-top: 30px;
+    justify-content: baseline;
+    margin: auto 0;
+}
+section.info3 h1{
+    color: #ffffff;
+    margin: 36px;
+    margin-left: 313px;
+
+}
+span.poco{
+    color: #EF332B;
+}
+span.poco:hover{
+color: #f5f5f5;
+}
+div.box4{
+    display: flex;
+    align-items: flex-start;
+    gap: 21px;
+    width: 100%;
+    justify-content: flex-start;
+    grid-column: 1/-1;
+}
+section.ultima{
+    display:  grid;
+    max-width: 1100px;
+    margin: 48px auto;
+    gap: 16px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+div.box4 img{
+    height: auto;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 669px;
+    width: 437px;
+    height: auto;
+    filter: grayscale(100%); 
+    margin: auto 0;
+}
+div.box4 span{
+   margin-top: 100px;
+    font-size: 30px;
+    margin: 0;
+    flex: 1;
+    padding: 10px;
+}
+span.prima{
+    font-weight: bold;
+}
+span.seconda{
+    font-weight: bold;
+}
+
+DA QUIIIIIIIIIIIIIIII
+
+div.box5{
+    align-items: stretch;
+    gap: 10px;
+}
+
+
+
+section.ultima2{
+    margin-bottom: 1000px;
+     margin: 20px auto;
+
+}
+
+
+div.box5 p{
+    margin-bottom: 40px;
+    height: 100%;
+    align-items: stretch;
+     font-size: 30px;
+    margin: auto 0;
+    margin-left: 60px;
+    margin-bottom: 30px;  
+    padding: 10px;
+}
+span.terza{
+    font-weight: bold;
+}
+span.quarta{
+    font-weight: bold;
+}
+span.quinta{
+    font-weight: bold;
+}
+
+div.svg{
+align-items: center;
+margin: auto;
+display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 20px;      
+}
